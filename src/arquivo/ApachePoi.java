@@ -55,7 +55,7 @@ public class ApachePoi {
 			} /* fim das celulas da linha, passa para outra linha, cria nov objeto */
 			pessoas.add(pessoa);
 		}
-		entrada.close(); /* terminou de ler o arquivo*/
+		entrada.close(); /* terminou de ler o arquivo  */
 
 		/* Escreve em tela as informacoes vindas do arquivo	, poderia enviar para um Banco de Dados*/
 		for (Pessoa p : pessoas) {
